@@ -1,0 +1,29 @@
+.ayam {
+    background-color: #2196f3;
+    display: grid;
+    grid-template-columns: 20% 45% 35%;
+    text-align: center;
+}
+.ayam > div {
+    border: solid #2196f3 7px;
+    padding: 10px;
+}
+.semangka {
+    grid-column: 1/4;
+    background-color: lightblue;
+}
+.alpukat {
+    grid-row: 2/4;
+    background-color: lightblue;
+}
+.melon {
+    grid-column:  2;
+    background-color: lightblue;
+}
+.manggis {
+     background-color: lightblue; 
+}
+.jambu {
+     grid-column: 2/4; 
+     background-color: lightblue; 
+}

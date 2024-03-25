@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Belajar Layout no 6</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-gap: 50px;
+            background-color: #2196F3;
+            grid-template-columns: auto auto auto auto;
+            padding: 10ox;
+        }
+        .item1 {
+            background-color: rgba(255, 255, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            grid-column: 1/4;
+        }
+        .item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="item1">100</div> 
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">300</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+            <div>Kesimpulan lay out tertata rapi secara horizontal dan tidak akan berubah vertikal serta akan tampil kolom baru di dalam kolom 
+                dan untuk kolom no 1 serta 5 akan menyesuaikan besarnya ukuran dengan panjangnya teks ini.
+            </div>
+        </div>
+        <p> kesimpulan skenario 1 adalah akan tampil kolom secara vertikal apabila kita atur halaman webnya dan untuk class item1 dapat 
+            menyesuaikan kolom dengan nomor yang di inputkan apabila lebih besar maka kolom akan melebar juga. </p>
+        <p> kesimpulan skenario 2 adalah  akan tampil kolom secara horizontal apabila kita atur halaman webnya dan untuk class item1 dapat 
+            menyesuaikan kolom dengan nomor yang di inputkan apabila lebih besar maka kolom akan memanjang dan mengeser nomor lainnya.</p>
+    </body>
+</html>
